@@ -40,7 +40,7 @@ jobs:
             script: |
               eval "$(ssh-agent -s)"
               ssh-add ~/.ssh/vm_senpro_modul2_66
-              echo "CEK folder project";
+              echo "Cek folder project";
               [ ! -d "${HOME}/senpro/479154/modul02/https://github.com/goodguythor/senpro-github-action/" ] &&
               {
                 echo "Repository belum di-clone. Cloning...";
